@@ -4,9 +4,7 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from botocore.vendored import requests
 
-
 ### Functionality Helper Functions ###
-
 
 def parse_int(n):
     """
@@ -16,7 +14,6 @@ def parse_int(n):
         return int(n)
     except ValueError:
         return float("nan")
-        
         
 def parse_float(n):
     """
